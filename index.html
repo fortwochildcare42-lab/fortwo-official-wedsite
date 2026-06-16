@@ -1,0 +1,1197 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For Two — 訪問保育・英語レッスン｜三重県朝日町</title>
+
+    <!-- FontAwesome & Google Fonts -->
+    <link rel="stylesheet" 
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&family=Poppins:wght@400;600;700;800&display=swap" 
+          rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ========== ビルダーツールバー（機能拡張版） ========== -->
+<div id="builderToolbar" class="builder-toolbar">
+    <div class="toolbar-left">
+        <span class="builder-logo">🏠 For Two ビルダー</span>
+        <button id="editModeBtn" class="btn-edit">✏️ 編集モード</button>
+        <button id="mobilePreviewBtn" class="btn-mobile">📱 スマホ確認</button>
+    </div>
+    <div class="toolbar-right">
+        <button id="resetDataBtn" class="btn-reset">🔄 リセット</button>
+        <button id="templateBtn" class="btn-template">📁 テンプレ保存</button>
+        <button id="loadTemplateBtn" class="btn-load">📂 テンプレ読込</button>
+        <button id="previewBtn" class="btn-preview">👁️ プレビュー</button>
+        <button id="exportBtn" class="btn-export">💾 ダウンロード</button>
+    </div>
+</div>
+
+
+<!-- ========== スマートナビゲーション ========== -->
+<nav class="site-nav" id="siteNav">
+    <div class="nav-container">
+        <a href="#" class="nav-logo" data-editable="text">
+            <span class="logo-for">For</span><span class="logo-two">Two</span>
+        </a>
+        <button class="nav-hamburger" id="navHamburger" aria-label="メニュー">
+            <span></span><span></span><span></span>
+        </button>
+      <ul class="nav-links" id="navLinks">
+    <li><a href="#about">事業理念</a></li>
+    <li><a href="#support">サポート</a></li>
+    <li><a href="#services">サービス</a></li>
+    <li><a href="#staff">スタッフ</a></li>
+    <li><a href="#flow">ご利用の流れ</a></li>
+    <li><a href="#faq">FAQ</a></li>
+    <li><a href="#contact" class="nav-cta">お問い合わせ</a></li>
+</ul>
+
+    </div>
+</nav>
+
+<!-- ========== ヒーローセクション（Pikkas風） ========== -->
+<section class="hero-section" id="hero" data-section="hero">
+    <div class="hero-bg" data-editable="media">
+        <img id="heroMedia" 
+             src="https://placehold.co/1920x1080/4AABDB/FFFFFF?text=For+Two+Hero" 
+             alt="For Two 保育風景" 
+             class="hero-media">
+    </div>
+    <div class="hero-overlay"></div>
+    
+    <!-- hero-contentは空にする（テキスト要素を全て削除） -->
+    <div class="hero-content">
+    </div>
+
+    <!-- Scrollインジケーターを最下部に配置 -->
+    <div class="scroll-indicator">
+        <span class="scroll-line"></span>
+        <p>Scroll</p>
+    </div>
+</section>
+
+<!-- ========== 統計セクション ========== -->
+<section class="stats-section">
+    <div class="container">
+        <div class="stats-grid">
+            <div class="stat-item reveal-up">
+                <span class="stat-num" data-editable="text">7<small>年+</small></span>
+                <span class="stat-label" data-editable="text">保育士経験</span>
+            </div>
+            <div class="stat-item reveal-up delay-1">
+                <span class="stat-num" data-editable="text">5<small>種類</small></span>
+                <span class="stat-label" data-editable="text">専門サービス</span>
+            </div>
+            <div class="stat-item reveal-up delay-2">
+                <span class="stat-num" data-editable="text">0<small>歳〜</small></span>
+                <span class="stat-label" data-editable="text">生後6か月から対応</span>
+            </div>
+            <div class="stat-item reveal-up delay-3">
+                <span class="stat-num" data-editable="text">AU<small>留学</small></span>
+                <span class="stat-label" data-editable="text">海外保育経験あり</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ========== 理念セクション（Pikkas風レイアウト） ========== -->
+<section class="philosophy-section" id="about" data-section="philosophy">
+    <div class="container">
+        <div class="section-label reveal-up" data-editable="text">Our Philosophy</div>
+        <h2 class="section-title reveal-up" data-editable="text">
+            For Twoの<span class="text-accent">理念</span>
+        </h2>
+        
+        <div class="philosophy-layout">
+            <div class="philosophy-visual reveal-up">
+                <div class="philosophy-img-wrap" data-editable="media">
+                    <img src="https://placehold.co/600x700/FDF8F4/4AABDB?text=Philosophy+Image" 
+                         alt="理念イメージ">
+                </div>
+                <div class="philosophy-badge">
+                    <i class="fas fa-heart"></i>
+                    <span data-editable="text">For Two</span>
+                </div>
+            </div>
+            
+            <div class="philosophy-text reveal-up delay-1">
+                <p class="philosophy-lead" data-editable="text">
+                    「お子様と保護者様に<br>素敵な時間を提供する」
+                </p>
+                <p class="philosophy-body" data-editable="text">
+                    私たちの事業理念はとてもシンプルです。保護者様が安心してお子様を預けられること、そしてお子様が笑顔で過ごせること。その両方を大切にしながら、一つひとつの時間を丁寧に積み重ねていきます。
+                </p>
+                <p class="philosophy-body" data-editable="text">
+                    訪問保育だからこそできる、お子様の「ホーム」での自然な姿に寄り添ったサポートを提供します。
+                </p>
+                <a href="#services" class="btn-primary" data-editable="text">
+                    サービスを見る <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ========== サポートの考え方（Pikkas風カード） ========== -->
+<section class="support-section" id="support" data-section="support-concept">
+    <div class="container">
+        <div class="section-label reveal-up" data-editable="text">Our Approach</div>
+        <h2 class="section-title reveal-up" data-editable="text">
+            サポートの<span class="text-accent">考え方</span>
+        </h2>
+        <p class="section-desc reveal-up" data-editable="text">
+            For Twoが大切にしている3つのスタンス
+        </p>
+
+        <div class="support-grid">
+            <div class="support-card reveal-up">
+                <div class="support-num">01</div>
+                <div class="support-icon">
+                    <i class="fas fa-child"></i>
+                </div>
+                <h3 data-editable="text">子どもの「今」を大切に</h3>
+                <p data-editable="text">
+                    子どもは毎日目まぐるしく成長しています。その「今この瞬間」の気持ちや興味を最優先に、マニュアルに縛られない柔軟な保育を心がけています。
+                </p>
+            </div>
+            
+            <div class="support-card reveal-up delay-1">
+                <div class="support-num">02</div>
+                <div class="support-icon peach">
+                    <i class="fas fa-user-friends"></i>
+                </div>
+                <h3 data-editable="text">保護者様も一緒に</h3>
+                <p data-editable="text">
+                    保育はお子様だけでなく、保護者様の安心があってこそ。お預かり後は保育記録をお渡しし、「何をして、どんな様子だったか」を丁寧にお伝えします。
+                </p>
+            </div>
+            
+            <div class="support-card reveal-up delay-2">
+                <div class="support-num">03</div>
+                <div class="support-icon">
+                    <i class="fas fa-seedling"></i>
+                </div>
+                <h3 data-editable="text">その子らしさを伸ばす</h3>
+                <p data-editable="text">
+                    得意なこと、好きなこと、ちょっと苦手なこと。一人ひとりの個性を尊重しながら、「できた！」の体験を積み重ねられるよう寄り添います。
+                </p>
+            </div>
+        </div>
+
+        <div class="support-quote reveal-up delay-1">
+            <i class="fas fa-quote-left"></i>
+            <p data-editable="text">
+                For Twoのスタッフは全員、保育の現場経験者です。<br>
+                専門知識と愛情を持って、お子様と真剣に向き合います。
+            </p>
+            <i class="fas fa-quote-right"></i>
+        </div>
+    </div>
+</section>
+
+<!-- ========== 5つのサービスセクション（STEP 2-2） ========== -->
+<section class="services-section" id="services" data-section="services">
+    <div class="container">
+        
+        <!-- セクションヘッダー -->
+        <div class="services-header">
+            <div class="section-label reveal-up" data-editable="text">Our Services</div>
+            <h2 class="section-title reveal-up" data-editable="text">
+                5つの<span class="text-accent">サービス</span>
+            </h2>
+            <p class="section-desc reveal-up" data-editable="text">
+                お子様の年齢・目的・ご要望に合わせて、最適なプランをお選びいただけます。
+            </p>
+        </div>
+
+        <!-- サービスカードグリッド -->
+        <div class="services-grid">
+            
+            <!-- ① 通常保育 -->
+            <div class="service-card reveal-up">
+                <div class="service-card-header">
+                    <div class="service-icon sky">
+                        <i class="fas fa-baby"></i>
+                    </div>
+                    <div class="service-price-badge sky">
+                        <span class="price-amount" data-editable="text">¥1,500</span>
+                        <span class="price-unit" data-editable="text">/ 1時間</span>
+                    </div>
+                </div>
+                <h3 class="service-title" data-editable="text">通常保育</h3>
+                <div class="service-meta">
+                    <span class="service-age" data-editable="text">
+                        <i class="fas fa-users"></i> 生後6か月〜18歳
+                    </span>
+                    <span class="service-cost" data-editable="text">
+                        <i class="fas fa-yen-sign"></i> + 交通費
+                    </span>
+                </div>
+                <p class="service-desc" data-editable="text">
+                    食事・排泄・寝かしつけ等、日常のお世話を丁寧に行います。ご自宅でのリラックスした環境で、お子様のペースに合わせた保育を提供します。
+                </p>
+                <ul class="service-features">
+                    <li data-editable="text">
+                        <i class="fas fa-check"></i> 基本的な生活のお世話全般
+                    </li>
+                    <li data-editable="text">
+                        <i class="fas fa-check"></i> 保育後に詳細な記録をお渡し
+                    </li>
+                    <li data-editable="text">
+                        <i class="fas fa-check"></i> ご家庭の方針を尊重した関わり
+                    </li>
+                </ul>
+            </div>
+
+            <!-- ② 英語保育 -->
+            <div class="service-card reveal-up delay-1">
+                <div class="service-card-header">
+                    <div class="service-icon peach">
+                        <i class="fas fa-globe-americas"></i>
+                    </div>
+                    <div class="service-price-badge peach">
+                        <span class="price-amount" data-editable="text">¥2,000</span>
+                        <span class="price-unit" data-editable="text">/ 1時間</span>
+                    </div>
+                </div>
+                <h3 class="service-title" data-editable="text">英語保育</h3>
+                <div class="service-meta">
+                    <span class="service-age" data-editable="text">
+                        <i class="fas fa-users"></i> 3歳〜
+                    </span>
+                    <span class="service-cost" data-editable="text">
+                        <i class="fas fa-yen-sign"></i> + 交通費
+                    </span>
+                </div>
+                <p class="service-desc" data-editable="text">
+                    日常の遊びの中に英語を自然に織り交ぜます。お歌や絵本の読み聞かせなどを通して、楽しく英語に触れる環境を作ります。
+                </p>
+                <ul class="service-features">
+                    <li data-editable="text">
+                        <i class="fas fa-check"></i> 遊びに英語を自然に織り交ぜる
+                    </li>
+                    <li data-editable="text">
+                        <i class="fas fa-check"></i> 海外保育留学経験スタッフ対応
+                    </li>
+                    <li data-editable="text">
+                        <i class="fas fa-check"></i> 英語への抵抗感をなくす工夫
+                    </li>
+                </ul>
+            </div>
+
+            <!-- ③ 英語レッスン -->
+            <div class="service-card reveal-up delay-2">
+                <div class="service-card-header">
+                    <div class="service-icon sky">
+                        <i class="fas fa-book-open"></i>
+                    </div>
+                    <div class="service-price-badge sky">
+                        <span class="price-amount" data-editable="text">¥2,000</span>
+                        <span class="price-unit" data-editable="text">/ 1時間</span>
+                    </div>
+                </div>
+                <h3 class="service-title" data-editable="text">英語レッスン</h3>
+                <div class="service-meta">
+                    <span class="service-age" data-editable="text">
+                        <i class="fas fa-users"></i> 就学児〜18歳
+                    </span>
+                    <span class="service-cost" data-editable="text">
+                        <i class="fas fa-video"></i> Zoom対応可
+                    </span>
+                </div>
+                <p class="service-desc" data-editable="text">
+                    お子様のレベルに合わせた本格的な英語レッスン。対面だけでなく、オンライン（Zoom）での受講も可能です。
+                </p>
+                <ul class="service-features">
+                    <li data-editable="text">
+                        <i class="fas fa-check"></i> 個別レベルに合わせた指導
+                    </li>
+                    <li data-editable="text">
+                        <i class="fas fa-check"></i> 訪問・オンライン両方対応
+                    </li>
+                    <li data-editable="text">
+                        <i class="fas fa-check"></i> 学校教材にも対応可能
+                    </li>
+                </ul>
+            </div>
+
+            <!-- ④ 英語ジムナスティック -->
+            <div class="service-card reveal-up">
+                <div class="service-card-header">
+                    <div class="service-icon peach">
+                        <i class="fas fa-running"></i>
+                    </div>
+                    <div class="service-price-badge peach">
+                        <span class="price-amount" data-editable="text">¥2,500</span>
+                        <span class="price-unit" data-editable="text">/ 1時間</span>
+                    </div>
+                </div>
+                <h3 class="service-title" data-editable="text">英語ジムナスティック</h3>
+                <div class="service-meta">
+                    <span class="service-age" data-editable="text">
+                        <i class="fas fa-users"></i> 3歳〜12歳
+                    </span>
+                    <span class="service-cost" data-editable="text">
+                        <i class="fas fa-yen-sign"></i> + 交通費
+                    </span>
+                </div>
+                <p class="service-desc" data-editable="text">
+                    「英語」と「体操」を組み合わせたアクティブなプログラム。体を動かしながら英語の指示を聞くことで、感覚的に言語を習得します。
+                </p>
+                <ul class="service-features">
+                    <li data-editable="text">
+                        <i class="fas fa-check"></i> 英語×体操のオリジナルプログラム
+                    </li>
+                    <li data-editable="text">
+                        <i class="fas fa-check"></i> 体を動かして自然習得
+                    </li>
+                    <li data-editable="text">
+                        <i class="fas fa-check"></i> 運動能力・バランス感覚も向上
+                    </li>
+                </ul>
+            </div>
+
+            <!-- ⑤ SST保育（療育） -->
+            <div class="service-card reveal-up delay-1">
+                <div class="service-card-header">
+                    <div class="service-icon sky">
+                        <i class="fas fa-hands-holding-child"></i>
+                    </div>
+                    <div class="service-price-badge sky">
+                        <span class="price-amount" data-editable="text">¥2,500</span>
+                        <span class="price-unit" data-editable="text">/ 1時間</span>
+                    </div>
+                </div>
+                <h3 class="service-title" data-editable="text">SST保育（療育）</h3>
+                <div class="service-meta">
+                    <span class="service-age" data-editable="text">
+                        <i class="fas fa-users"></i> 3歳〜12歳
+                    </span>
+                    <span class="service-cost" data-editable="text">
+                        <i class="fas fa-award"></i> ABAベース
+                    </span>
+                </div>
+                <p class="service-desc" data-editable="text">
+                    応用行動分析（ABA）をベースにしたソーシャルスキルトレーニング。お子様の特性に寄り添い、社会性やコミュニケーション能力の向上をサポートします。
+                </p>
+                <ul class="service-features">
+                    <li data-editable="text">
+                        <i class="fas fa-check"></i> ABA（応用行動分析）ベース
+                    </li>
+                    <li data-editable="text">
+                        <i class="fas fa-check"></i> 個別特性に合わせたプログラム
+                    </li>
+                    <li data-editable="text">
+                        <i class="fas fa-check"></i> 遊びを通じた自然な療育
+                    </li>
+                </ul>
+            </div>
+
+        </div><!-- /.services-grid -->
+
+        <!-- 料金まとめテーブル -->
+        <div class="price-summary-wrap reveal-up">
+            <h3 class="price-summary-title" data-editable="text">
+                <i class="fas fa-list-ul"></i> 料金一覧
+            </h3>
+            <div class="price-summary-grid">
+                <div class="price-summary-item">
+                    <span class="summary-service" data-editable="text">通常保育</span>
+                    <span class="summary-price" data-editable="text">¥1,500/時</span>
+                </div>
+                <div class="price-summary-item">
+                    <span class="summary-service" data-editable="text">英語保育</span>
+                    <span class="summary-price" data-editable="text">¥2,000/時</span>
+                </div>
+                <div class="price-summary-item">
+                    <span class="summary-service" data-editable="text">英語レッスン</span>
+                    <span class="summary-price" data-editable="text">¥2,000/時</span>
+                </div>
+                <div class="price-summary-item">
+                    <span class="summary-service" data-editable="text">英語ジムナスティック</span>
+                    <span class="summary-price" data-editable="text">¥2,500/時</span>
+                </div>
+                <div class="price-summary-item">
+                    <span class="summary-service" data-editable="text">SST保育（療育）</span>
+                    <span class="summary-price" data-editable="text">¥2,500/時</span>
+                </div>
+            </div>
+            <p class="price-summary-note" data-editable="text">
+                <i class="fas fa-info-circle"></i>
+                すべてのサービスに交通費が別途必要です。詳細はお気軽にお問い合わせください。
+            </p>
+        </div>
+
+    </div>
+</section>
+<!-- /services-section -->
+ <!-- ========== 保育記録の特徴セクション（STEP 2-3） ========== -->
+<section class="record-section" id="record" data-section="record">
+    <div class="container">
+
+        <!-- セクションヘッダー -->
+        <div class="record-header">
+            <div class="section-label reveal-up" data-editable="text">
+                Daily Care Record
+            </div>
+            <h2 class="section-title reveal-up" data-editable="text">
+                毎回お渡しする<span class="text-accent">保育記録</span>
+            </h2>
+            <p class="section-desc reveal-up" data-editable="text">
+                「今日どんなことをしたの？」その疑問にすべてお答えします。<br>
+                For Twoでは毎回の保育後に、詳細な記録をお渡ししています。
+            </p>
+        </div>
+
+        <!-- メインレイアウト：左ビジュアル・右特徴 -->
+        <div class="record-layout">
+
+            <!-- 左：記録カードビジュアル -->
+            <div class="record-visual reveal-up">
+                
+                <!-- 背景画像（回転効果付き） -->
+                <div class="record-bg-image" data-editable="media">
+                    <img src="https://placehold.co/500x600/FDF8F4/4AABDB?text=Care+Record+Photo" 
+                         alt="保育記録の様子">
+                </div>
+
+                <!-- 記録カードのモックアップ -->
+                <div class="record-card-mock">
+                    <div class="record-card-header">
+                        <div class="record-card-logo">
+                            <span class="logo-for">For</span><span class="logo-two">Two</span>
+                        </div>
+                        <div class="record-card-date">
+                            <i class="fas fa-calendar-alt"></i>
+                            <span data-editable="text">保育記録</span>
+                        </div>
+                    </div>
+
+                    <div class="record-card-body">
+                        <div class="record-row">
+                            <span class="record-row-label">
+                                <i class="fas fa-clock"></i> 時間
+                            </span>
+                            <span class="record-row-bar">
+                                <span class="record-bar-fill" style="width:85%"></span>
+                            </span>
+                            <span class="record-row-value" data-editable="text">10:00〜13:00</span>
+                        </div>
+                        <div class="record-row">
+                            <span class="record-row-label">
+                                <i class="fas fa-smile"></i> 機嫌
+                            </span>
+                            <span class="record-row-bar">
+                                <span class="record-bar-fill peach" style="width:95%"></span>
+                            </span>
+                            <span class="record-row-value" data-editable="text">とても良好</span>
+                        </div>
+                        <div class="record-row">
+                            <span class="record-row-label">
+                                <i class="fas fa-utensils"></i> 食事
+                            </span>
+                            <span class="record-row-bar">
+                                <span class="record-bar-fill" style="width:75%"></span>
+                            </span>
+                            <span class="record-row-value" data-editable="text">完食</span>
+                        </div>
+                        <div class="record-row">
+                            <span class="record-row-label">
+                                <i class="fas fa-gamepad"></i> 遊び
+                            </span>
+                            <span class="record-row-bar">
+                                <span class="record-bar-fill peach" style="width:90%"></span>
+                            </span>
+                            <span class="record-row-value" data-editable="text">積極的</span>
+                        </div>
+
+                        <div class="record-comment-box">
+                            <p class="record-comment-label">
+                                <i class="fas fa-pen"></i> スタッフより
+                            </p>
+                            <p class="record-comment-text" data-editable="text">
+                                今日は積み木で高いタワーを作ることに夢中でした！集中力がとても高く、崩れても何度も挑戦する姿が印象的でした。
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- 浮遊バッジ -->
+                    <div class="record-float-badge badge-1">
+                        <i class="fas fa-check-circle"></i>
+                        <span data-editable="text">毎回お渡し</span>
+                    </div>
+                    <div class="record-float-badge badge-2">
+                        <i class="fas fa-camera"></i>
+                        <span data-editable="text">写真付き</span>
+                    </div>
+
+                </div><!-- /.record-card-mock -->
+
+            </div><!-- /.record-visual -->
+
+            <!-- 右：特徴リスト -->
+            <div class="record-features">
+
+                <div class="record-feature-item reveal-up delay-1">
+                    <div class="record-feature-icon sky">
+                        <i class="fas fa-heart-pulse"></i>
+                    </div>
+                    <div class="record-feature-body">
+                        <h3 data-editable="text">生活リズムを詳細に記録</h3>
+                        <p data-editable="text">
+                            食事の量・内容・食べ方、お昼寝の時間・様子、排泄の回数など、お子様の健康状態を把握するために必要な情報をすべて記録します。
+                        </p>
+                    </div>
+                </div>
+
+                <div class="record-feature-item reveal-up delay-2">
+                    <div class="record-feature-icon peach">
+                        <i class="fas fa-seedling"></i>
+                    </div>
+                    <div class="record-feature-body">
+                        <h3 data-editable="text">成長の瞬間を見逃しません</h3>
+                        <p data-editable="text">
+                            「今日初めてできた」「こんなことに興味を示した」など、小さな成長の変化も丁寧に観察し、保護者様と喜びを共有します。
+                        </p>
+                    </div>
+                </div>
+
+                <div class="record-feature-item reveal-up delay-3">
+                    <div class="record-feature-icon sky">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                    <div class="record-feature-body">
+                        <h3 data-editable="text">双方向のコミュニケーション</h3>
+                        <p data-editable="text">
+                            保護者様からのご要望やお子様の様子もお聞かせください。記録を通じて、より良い保育につなげていきます。
+                        </p>
+                    </div>
+                </div>
+
+                <div class="record-feature-item reveal-up delay-4">
+                    <div class="record-feature-icon peach">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <div class="record-feature-body">
+                        <h3 data-editable="text">安心の証明書として</h3>
+                        <p data-editable="text">
+                            「見えない時間」を「見える化」することで、保護者様が安心してお仕事に集中できる環境を作ります。
+                        </p>
+                    </div>
+                </div>
+
+            </div><!-- /.record-features -->
+
+        </div><!-- /.record-layout -->
+
+        <!-- 底部：メッセージバナー -->
+        <div class="record-banner reveal-up">
+            <div class="record-banner-content">
+                <h3 data-editable="text">
+                    <i class="fas fa-quote-left"></i>
+                    保護者様からのお声
+                    <i class="fas fa-quote-right"></i>
+                </h3>
+                <p data-editable="text">
+                    「記録を見るのが毎回楽しみです。家では見せない表情や行動を知ることができて、子どもの新しい一面を発見できます。」
+                </p>
+                <span class="record-banner-author" data-editable="text">— 3歳児のお母様より</span>
+            </div>
+        </div>
+
+    </div>
+</section>
+<!-- /record-section -->
+
+<!-- ========== スタッフ紹介セクション（STEP 2-4） ========== -->
+<section class="staff-section" id="staff" data-section="staff">
+    <div class="container">
+        
+        <!-- セクションヘッダー -->
+        <div class="staff-header">
+            <div class="section-label reveal-up" data-editable="text">Our Team</div>
+            <h2 class="section-title reveal-up" data-editable="text">
+                For Twoの<span class="text-accent">スタッフ紹介</span>
+            </h2>
+            <p class="section-desc reveal-up" data-editable="text">
+                保育の現場経験と、お子様への真摯な想いを持ったスタッフが担当いたします。
+            </p>
+        </div>
+
+        <!-- スタッフカードグリッド -->
+        <div class="staff-grid">
+            
+            <!-- けん先生 -->
+            <article class="staff-card reveal-up">
+                <div class="staff-visual">
+                    <div class="staff-photo-wrap" data-editable="media">
+                        <img src="https://placehold.co/400x480/4AABDB/FFFFFF?text=Ken+Sensei" 
+                             alt="けん先生の写真" class="staff-photo">
+                    </div>
+                    <div class="staff-badge sky">
+                        <i class="fas fa-star"></i>
+                        <span data-editable="text">代表・主任保育士</span>
+                    </div>
+                </div>
+                
+                <div class="staff-content">
+                    <h3 class="staff-name" data-editable="text">けん先生</h3>
+                    
+                    <ul class="staff-credentials">
+                        <li data-editable="text">
+                            <i class="fas fa-certificate"></i> 保育士歴7年
+                        </li>
+                        <li data-editable="text">
+                            <i class="fas fa-plane-departure"></i> オーストラリア保育留学経験
+                        </li>
+                        <li data-editable="text">
+                            <i class="fas fa-basketball-ball"></i> バスケットボール好き
+                        </li>
+                    </ul>
+                    
+                    <p class="staff-message" data-editable="text">
+                        乳児さんから小学生まで、幅広い年齢のお子様と関わってきました。一人ひとりの「好き」を大切にしながら、「できた！」の積み重ねを一緒に喜べる関わりを心がけています。海外での保育経験を活かし、英語も楽しく取り入れていきます。
+                    </p>
+                    
+                  <!-- けん先生のタグエリア -->
+                    <div class="staff-specialties" data-editable="tags">
+                        <span class="specialty-tag" data-editable="text">英語保育</span>
+                        <span class="specialty-tag" data-editable="text">英語レッスン</span>
+                        <span class="specialty-tag" data-editable="text">英語ジムナスティック</span>
+                    </div>
+                </div><!-- /.staff-content -->
+            </article>
+
+            <!-- ゆさ先生 -->
+            <article class="staff-card reveal-up delay-1">
+                <div class="staff-visual">
+                    <div class="staff-photo-wrap" data-editable="media">
+                        <img src="https://placehold.co/400x480/F0A882/FFFFFF?text=Yusa+Sensei" 
+                             alt="ゆさ先生の写真" class="staff-photo">
+                    </div>
+                    <div class="staff-badge peach">
+                        <i class="fas fa-heart"></i>
+                        <span data-editable="text">保育士</span>
+                    </div>
+                </div>
+                
+                <div class="staff-content">
+                    <h3 class="staff-name" data-editable="text">ゆさ先生</h3>
+                    
+                    <ul class="staff-credentials">
+                        <li data-editable="text">
+                            <i class="fas fa-school"></i> 公立保育園3年勤務
+                        </li>
+                        <li data-editable="text">
+                            <i class="fas fa-hands"></i> 丁寧な関わりが得意
+                        </li>
+                        <li data-editable="text">
+                            <i class="fas fa-cut"></i> 手芸が趣味
+                        </li>
+                    </ul>
+                    
+                    <p class="staff-message" data-editable="text">
+                        乳児さんのゆったりとした関わりから、就学前のお子様の集団生活のサポートまで、日々の生活の中で安心できる時間をつくることを大切にしています。手作りおもちゃや手芸を通して、指先を使った遊びや想像力を育む活動も取り入れています。
+                    </p>
+                    
+                  <!-- ゆさ先生のタグエリア -->
+                    <div class="staff-specialties" data-editable="tags">
+                        <span class="specialty-tag" data-editable="text">通常保育</span>
+                        <span class="specialty-tag" data-editable="text">SST保育（療育）</span>
+                        <span class="specialty-tag" data-editable="text">手作り活動</span>
+                    </div>
+                </div><!-- /.staff-content -->
+            </article>
+
+        </div><!-- /.staff-grid -->
+
+        <!-- 継続性メッセージ -->
+        <div class="staff-continuity reveal-up">
+            <div class="continuity-icon">
+                <i class="fas fa-handshake"></i>
+            </div>
+            <div class="continuity-content">
+                <h4 data-editable="text">継続的な関わりを大切に</h4>
+                <p data-editable="text">
+                    For Twoでは、できるだけ<strong>同じスタッフが継続して関わる</strong>ことを大切にしています。お子様・保護者様との信頼関係を育みながら、長期的な視点で成長を支えていきます。
+                </p>
+            </div>
+        </div>
+
+    </div>
+</section>
+<!-- /staff-section -->
+ <!-- ========== ご利用案内・ご利用の流れセクション（STEP 2-5） ========== -->
+<section class="flow-section" id="flow" data-section="flow">
+    <div class="container">
+
+        <!-- セクションヘッダー -->
+        <div class="flow-header">
+            <div class="section-label reveal-up" data-editable="text">How to Use</div>
+            <h2 class="section-title reveal-up" data-editable="text">
+                ご利用案内・<span class="text-accent">ご利用の流れ</span>
+            </h2>
+            <p class="section-desc reveal-up" data-editable="text">
+                お問い合わせから保育開始まで、丁寧にサポートいたします。<br>
+                初めての方でも安心してご利用いただけます。
+            </p>
+        </div>
+
+        <!-- ============ ご利用の流れ（4ステップ） ============ -->
+        <div class="flow-steps-wrap">
+            <h3 class="flow-block-title reveal-up" data-editable="text">
+                <i class="fas fa-route"></i> ご利用の流れ
+            </h3>
+
+            <div class="flow-steps">
+
+                <!-- STEP 1 -->
+                <div class="flow-step reveal-up delay-1">
+                    <div class="flow-step-marker">
+                        <span class="flow-step-number">01</span>
+                    </div>
+                    <div class="flow-step-content">
+                        <div class="flow-step-icon sky">
+                            <i class="fas fa-envelope-open-text"></i>
+                        </div>
+                        <div class="flow-step-text">
+                            <h4 data-editable="text">お問い合わせ・ご相談</h4>
+                            <p data-editable="text">
+                                お問い合わせフォームまたはLINEからご連絡ください。ご希望のサービス・日時・お子様の年齢などをお知らせいただけるとスムーズです。
+                            </p>
+                        </div>
+                    </div>
+                    <div class="flow-step-arrow">
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                </div>
+
+                <!-- STEP 2 -->
+                <div class="flow-step reveal-up delay-2">
+                    <div class="flow-step-marker peach">
+                        <span class="flow-step-number">02</span>
+                    </div>
+                    <div class="flow-step-content">
+                        <div class="flow-step-icon peach">
+                            <i class="fas fa-comments"></i>
+                        </div>
+                        <div class="flow-step-text">
+                            <h4 data-editable="text">事前ヒアリング・日程調整</h4>
+                            <p data-editable="text">
+                                お子様の特性・好き嫌い・アレルギー・生活リズムなどを丁寧にお聞きします。保護者様のご要望も確認し、最適な日程を調整いたします。
+                            </p>
+                        </div>
+                    </div>
+                    <div class="flow-step-arrow">
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                </div>
+
+                <!-- STEP 3 -->
+                <div class="flow-step reveal-up delay-3">
+                    <div class="flow-step-marker">
+                        <span class="flow-step-number">03</span>
+                    </div>
+                    <div class="flow-step-content">
+                        <div class="flow-step-icon sky">
+                            <i class="fas fa-handshake"></i>
+                        </div>
+                        <div class="flow-step-text">
+                            <h4 data-editable="text">初回顔合わせ（任意）</h4>
+                            <p data-editable="text">
+                                初回は保護者様もご一緒に、お子様とスタッフが安心して関われるよう顔合わせの時間を設けることも可能です。環境に慣れることを大切にしています。
+                            </p>
+                        </div>
+                    </div>
+                    <div class="flow-step-arrow">
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                </div>
+
+                <!-- STEP 4 -->
+                <div class="flow-step reveal-up delay-4">
+                    <div class="flow-step-marker peach">
+                        <span class="flow-step-number">04</span>
+                    </div>
+                    <div class="flow-step-content">
+                        <div class="flow-step-icon peach">
+                            <i class="fas fa-child-reaching"></i>
+                        </div>
+                        <div class="flow-step-text">
+                            <h4 data-editable="text">保育スタート・保育記録お渡し</h4>
+                            <p data-editable="text">
+                                いよいよ保育開始です！終了後は詳細な保育記録をお渡しします。継続ご利用の場合は、次回の日程もその場でご相談いただけます。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div><!-- /.flow-steps -->
+        </div><!-- /.flow-steps-wrap -->
+
+        <!-- ============ 基本情報（4カードグリッド） ============ -->
+        <div class="flow-info-section">
+            <h3 class="flow-block-title reveal-up" data-editable="text">
+                <i class="fas fa-info-circle"></i> 基本情報・ご利用条件
+            </h3>
+
+            <div class="flow-info-grid">
+
+                <!-- 対応エリア・時間 -->
+                <div class="flow-info-card reveal-up">
+                    <div class="flow-info-icon sky">
+                        <i class="fas fa-map-location-dot"></i>
+                    </div>
+                    <h4 class="flow-info-title" data-editable="text">対応エリア・時間</h4>
+                    <ul class="flow-info-list">
+                        <li data-editable="text">
+                            <i class="fas fa-check"></i> 三重県朝日町（拠点・交通費無料）
+                        </li>
+                        <li data-editable="text">
+                            <i class="fas fa-check"></i> 周辺市町村（交通費別途相談）
+                        </li>
+                        <li data-editable="text">
+                            <i class="fas fa-check"></i> 営業時間：月〜土 9:00-18:00
+                        </li>
+                        <li data-editable="text">
+                            <i class="fas fa-check"></i> 時間外・日祝もご相談可能
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- ご利用条件 -->
+                <div class="flow-info-card reveal-up delay-1">
+                    <div class="flow-info-icon peach">
+                        <i class="fas fa-clipboard-list"></i>
+                    </div>
+                    <h4 class="flow-info-title" data-editable="text">ご利用条件</h4>
+                    <ul class="flow-info-list">
+                        <li data-editable="text">
+                            <i class="fas fa-check"></i> 対象年齢：生後6か月〜18歳
+                        </li>
+                        <li data-editable="text">
+                            <i class="fas fa-check"></i> 最低利用時間：1時間〜
+                        </li>
+                        <li data-editable="text">
+                            <i class="fas fa-check"></i> 前日までのご予約をお願いします
+                        </li>
+                        <li data-editable="text">
+                            <i class="fas fa-check"></i> 兄弟・姉妹での利用も大歓迎
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- お支払い方法 -->
+                <div class="flow-info-card reveal-up delay-2">
+                    <div class="flow-info-icon sky">
+                        <i class="fas fa-wallet"></i>
+                    </div>
+                    <h4 class="flow-info-title" data-editable="text">お支払い方法</h4>
+                    <ul class="flow-info-list">
+                        <li data-editable="text">
+                            <i class="fas fa-check"></i> 現金払い（保育終了時）
+                        </li>
+                        <li data-editable="text">
+                            <i class="fas fa-check"></i> 銀行振込（事前振込可）
+                        </li>
+                        <li data-editable="text">
+                            <i class="fas fa-check"></i> PayPay（要事前相談）
+                        </li>
+                        <li data-editable="text">
+                            <i class="fas fa-check"></i> 領収書の発行も対応
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- キャンセル規定 -->
+                <div class="flow-info-card reveal-up delay-3">
+                    <div class="flow-info-icon peach">
+                        <i class="fas fa-calendar-times"></i>
+                    </div>
+                    <h4 class="flow-info-title" data-editable="text">キャンセル規定</h4>
+                    <ul class="flow-info-list">
+                        <li data-editable="text">
+                            <i class="fas fa-check"></i> 前日17時まで：無料
+                        </li>
+                        <li data-editable="text">
+                            <i class="fas fa-check"></i> 前日17時以降：50%
+                        </li>
+                        <li data-editable="text">
+                            <i class="fas fa-check"></i> 当日キャンセル：100%
+                        </li>
+                        <li data-editable="text">
+                            <i class="fas fa-check"></i> 体調不良等は柔軟に対応
+                        </li>
+                    </ul>
+                </div>
+
+            </div><!-- /.flow-info-grid -->
+        </div><!-- /.flow-info-section -->
+
+        <!-- CTA バナー -->
+        <div class="flow-cta reveal-up">
+            <div class="flow-cta-content">
+                <h3 data-editable="text">
+                    <i class="fas fa-heart"></i> まずはお気軽にご相談ください
+                </h3>
+                <p data-editable="text">
+                    「こんなこと聞いていいの？」そんな遠慮は不要です。<br>
+                    小さな疑問もお気軽にどうぞ。
+                </p>
+            </div>
+            <div class="flow-cta-btns">
+                <a href="#contact" class="btn-primary" data-editable="text">
+                    <i class="fas fa-envelope"></i> お問い合わせ
+                </a>
+                <a href="#contact" class="btn-line" data-editable="text">
+                    <i class="fab fa-line"></i> LINEで相談
+                </a>
+            </div>
+        </div>
+
+    </div>
+</section>
+<!-- /flow-section -->
+
+
+
+<!-- ========== FAQ（よくある質問）セクション ========== -->
+<section class="faq-section" id="faq" data-section="faq">
+    <div class="container">
+        <div class="faq-header">
+            <div class="section-label reveal-up" data-editable="text">FAQ</div>
+            <h2 class="section-title reveal-up" data-editable="text">
+                よくある<span class="text-accent">ご質問</span>
+            </h2>
+            <p class="section-desc reveal-up" data-editable="text">
+                お問い合わせの前にご確認ください。解決しない場合はお気軽にご連絡を。
+            </p>
+        </div>
+
+        <div class="faq-list reveal-up delay-1">
+            
+            <!-- FAQ 1 -->
+            <details class="faq-item">
+                <summary class="faq-question">
+                    <span class="faq-q-mark">Q</span>
+                    <span class="faq-q-text" data-editable="text">
+                        初めて利用するのですが、事前の面談は必須ですか？
+                    </span>
+                    <i class="fas fa-plus faq-toggle-icon"></i>
+                </summary>
+                <div class="faq-answer">
+                    <span class="faq-a-mark">A</span>
+                    <p data-editable="text">
+                        必須ではありませんが、お子様が安心して過ごせるよう、ご希望の方には事前の顔合わせ（無料・オンライン可）をおすすめしております。お気軽にご相談ください。
+                    </p>
+                </div>
+            </details>
+
+            <!-- FAQ 2 -->
+            <details class="faq-item">
+                <summary class="faq-question">
+                    <span class="faq-q-mark">Q</span>
+                    <span class="faq-q-text" data-editable="text">
+                        兄弟・姉妹を一緒に預けることはできますか？
+                    </span>
+                    <i class="fas fa-plus faq-toggle-icon"></i>
+                </summary>
+                <div class="faq-answer">
+                    <span class="faq-a-mark">A</span>
+                    <p data-editable="text">
+                        はい、大歓迎です。ご兄弟を一緒にお預かりする場合、2人目以降は割引料金となります。安全確保のため、お子様の年齢や人数によってはお預かりが難しい場合もございますので、事前にお知らせください。
+                    </p>
+                </div>
+            </details>
+
+            <!-- FAQ 3 -->
+            <details class="faq-item">
+                <summary class="faq-question">
+                    <span class="faq-q-mark">Q</span>
+                    <span class="faq-q-text" data-editable="text">
+                        英語が全くできない子でも英語保育・英語レッスンを受けられますか？
+                    </span>
+                    <i class="fas fa-plus faq-toggle-icon"></i>
+                </summary>
+                <div class="faq-answer">
+                    <span class="faq-a-mark">A</span>
+                    <p data-editable="text">
+                        もちろんです！英語保育は「英語に楽しく触れる」ことを目的としており、英語力は一切問いません。遊びや歌を通じて自然に英語に親しめる環境を作りますので、英語が初めてのお子様にこそおすすめです。
+                    </p>
+                </div>
+            </details>
+
+            <!-- FAQ 4 -->
+            <details class="faq-item">
+                <summary class="faq-question">
+                    <span class="faq-q-mark">Q</span>
+                    <span class="faq-q-text" data-editable="text">
+                        発達に特性のある子どもでも利用できますか？
+                    </span>
+                    <i class="fas fa-plus faq-toggle-icon"></i>
+                </summary>
+                <div class="faq-answer">
+                    <span class="faq-a-mark">A</span>
+                    <p data-editable="text">
+                        はい、対応しています。SST保育（療育）はABAをベースにした発達支援プログラムです。また通常保育・英語保育においても、お子様の特性に合わせた関わり方を心がけています。事前ヒアリングで詳しくお聞かせください。
+                    </p>
+                </div>
+            </details>
+
+            <!-- FAQ 5 -->
+            <details class="faq-item">
+                <summary class="faq-question">
+                    <span class="faq-q-mark">Q</span>
+                    <span class="faq-q-text" data-editable="text">
+                        当日の急なキャンセルはできますか？
+                    </span>
+                    <i class="fas fa-plus faq-toggle-icon"></i>
+                </summary>
+                <div class="faq-answer">
+                    <span class="faq-a-mark">A</span>
+                    <p data-editable="text">
+                        お子様の体調不良など、やむを得ない事情の場合は柔軟に対応いたします。キャンセル規定（前日17時以降50%・当日100%）がありますが、まずはご連絡をいただき、状況をお聞かせください。
+                    </p>
+                </div>
+            </details>
+
+        </div>
+    </div>
+</section>
+
+<!-- ========== お問い合わせセクション ========== -->
+<section class="contact-section" id="contact" data-section="contact">
+    <div class="container">
+        
+        <div class="contact-layout">
+            <!-- 左：案内・連絡手段 -->
+            <div class="contact-info reveal-up">
+                <div class="section-label" data-editable="text">Contact</div>
+                <h2 class="section-title" data-editable="text">
+                    お問い合わせ・<span class="text-accent-light">ご予約</span>
+                </h2>
+                <p class="contact-desc" data-editable="text">
+                    保育のご依頼、英語レッスンのご相談など、お気軽にお問い合わせください。2営業日以内にスタッフよりご返信いたします。
+                </p>
+                
+                <div class="contact-methods">
+                    <div class="contact-method-card">
+                        <div class="method-icon line">
+                            <i class="fab fa-line"></i>
+                        </div>
+                        <div class="method-text">
+                            <h4 data-editable="text">LINEでカンタン相談</h4>
+                            <p data-editable="text">お友達追加後、メッセージをお送りください。</p>
+                            <a href="#" class="method-link line" data-editable="text">
+                                <i class="fab fa-line"></i> お友達追加はこちら
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="contact-direct-info">
+                        <h4 data-editable="text">
+                            <i class="fas fa-clock"></i> 受付時間
+                        </h4>
+                        <p data-editable="text">月〜土 9:00-18:00（日祝は要相談）</p>
+                        <p data-editable="text">返信目安：2営業日以内</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 右：お問い合わせフォーム -->
+            <div class="contact-form-wrap reveal-up delay-1">
+                <form class="contact-form" id="contactForm">
+                    
+                    <div class="form-group">
+                        <label class="form-label" data-editable="text">
+                            お名前 <span class="required">必須</span>
+                        </label>
+                        <input type="text" name="name" class="form-input" 
+                               placeholder="例：山田 花子" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label" data-editable="text">
+                            メールアドレス <span class="required">必須</span>
+                        </label>
+                        <input type="email" name="email" class="form-input" 
+                               placeholder="例：example@email.com" required>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label class="form-label" data-editable="text">お子様の年齢</label>
+                            <input type="text" name="childAge" class="form-input" 
+                                   placeholder="例：3歳（4月で4歳）">
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" data-editable="text">ご希望日時</label>
+                            <input type="text" name="preferredDate" class="form-input" 
+                                   placeholder="例：7月上旬の午前中">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label" data-editable="text">
+                            ご希望のサービス <span class="required">必須</span>
+                        </label>
+                        <select name="service" class="form-select" required>
+                            <option value="" data-editable="text">選択してください</option>
+                            <option value="normal" data-editable="text">通常保育</option>
+                            <option value="english-care" data-editable="text">英語保育</option>
+                            <option value="english-lesson" data-editable="text">英語レッスン</option>
+                            <option value="gymnastics" data-editable="text">英語ジムナスティック</option>
+                            <option value="sst" data-editable="text">SST保育（療育）</option>
+                            <option value="undecided" data-editable="text">まだ決まっていない</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label" data-editable="text">
+                            ご質問・ご要望 <span class="required">必須</span>
+                        </label>
+                        <textarea name="message" class="form-textarea" rows="5" 
+                                  placeholder="お子様の特性・アレルギー・ご要望などをご自由にご記入ください。" required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn-submit" data-editable="text">
+                        <i class="fas fa-paper-plane"></i> メールで送信
+                    </button>
+                    
+                    <p class="form-note" data-editable="text">
+                        ※ 送信ボタンを押すと、お使いのメールソフトが起動します。
+                    </p>
+                </form>
+            </div>
+            
+        </div>
+    </div>
+</section>
+
+
+
+
+
+<!-- ========== フッター ========== -->
+<footer class="site-footer">
+    <div class="container">
+        <div class="footer-logo" data-editable="text">
+            <span class="logo-for">For</span><span class="logo-two">Two</span>
+        </div>
+        <p class="footer-text" data-editable="text">
+            三重県朝日町 ｜ 訪問保育・英語レッスン<br>
+            © 2025 For Two. All rights reserved.
+        </p>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
