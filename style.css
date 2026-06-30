@@ -1014,12 +1014,98 @@ ul { list-style: none; }
 }
 
 /* ============================================================
+   INSTAGRAM FEED
+   ============================================================ */
+.insta-feed { background: var(--ivory); }
+
+.insta-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.insta-loading,
+.insta-error {
+  grid-column: 1 / -1;
+  text-align: center;
+  color: var(--text-lt);
+  font-size: 0.92rem;
+  padding: 32px 0;
+}
+
+.insta-post {
+  position: relative;
+  display: block;
+  aspect-ratio: 1 / 1;
+  border-radius: var(--radius);
+  overflow: hidden;
+  background: rgba(74,171,219,.08);
+  box-shadow: 0 2px 12px rgba(0,0,0,.04);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.insta-post:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow);
+}
+.insta-post img,
+.insta-post video {
+  width: 100%; height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.insta-post-icon {
+  position: absolute; top: 10px; right: 10px;
+  width: 22px; height: 22px;
+  filter: drop-shadow(0 1px 3px rgba(0,0,0,.4));
+}
+.insta-post-overlay {
+  position: absolute; inset: 0;
+  background: rgba(58,58,58,0);
+  opacity: 0;
+  display: flex; align-items: flex-end;
+  padding: 14px;
+  transition: opacity 0.3s, background 0.3s;
+}
+.insta-post:hover .insta-post-overlay {
+  opacity: 1;
+  background: rgba(58,58,58,.45);
+}
+.insta-post-caption {
+  color: white;
+  font-size: 0.78rem;
+  line-height: 1.5;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.insta-feed-cta {
+  text-align: center;
+  margin-top: 36px;
+}
+.insta-feed-cta .btn-insta {
+  display: inline-flex; align-items: center; gap: 10px;
+  background: white;
+  color: var(--text);
+  border: 1.5px solid rgba(74,171,219,.18);
+  box-shadow: 0 2px 12px rgba(0,0,0,.04);
+}
+.insta-feed-cta .btn-insta:hover {
+  background: var(--ivory);
+  box-shadow: var(--shadow);
+}
+
+/* ============================================================
    RESPONSIVE
    ============================================================ */
 @media (max-width: 1024px) {
   .services-grid { grid-template-columns: repeat(2, 1fr); }
   .overview-grid { grid-template-columns: repeat(2, 1fr); }
   .voices-grid { grid-template-columns: repeat(2, 1fr); }
+  .insta-grid { grid-template-columns: repeat(4, 1fr); }
 }
 
 @media (max-width: 900px) {
@@ -1079,6 +1165,8 @@ ul { list-style: none; }
   .staff-card { padding: 28px 20px; }
   /* 声 */
   .voices-grid { grid-template-columns: 1fr; }
+  /* Instagram */
+  .insta-grid { grid-template-columns: repeat(2, 1fr); }
   /* フッター */
   .footer-nav { gap: 10px 16px; }
 }
